@@ -1,0 +1,20 @@
+{
+    "name": "mountpoint/wget",
+    "description": "A simple wget wrapper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Rad",
+            "email": "mountpoint@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "Mountpoint\\Wget\\" : "src"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0"
+    }
+}
